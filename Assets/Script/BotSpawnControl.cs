@@ -15,6 +15,9 @@ public class BotSpawnControl : MonoBehaviour
     private float _timeSpawnBot = 5f;
 
     [SerializeField]
+    private int _maximumBotSpawn = 3;
+
+    [SerializeField]
     private Transform _playerTransform = null;
 
     private void Start()
